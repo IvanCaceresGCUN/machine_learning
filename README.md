@@ -23,10 +23,6 @@ Este proyecto contiene análisis y visualizaciones de datos climáticos utilizan
 
 Puedes instalar las dependencias necesarias utilizando pip
 
-# Análisis de Datos Climáticos
-
-Este proyecto contiene análisis y visualizaciones de datos climáticos utilizando Python, pandas, Matplotlib y Seaborn.
-
 ## Gráfico de Barras
  
 
