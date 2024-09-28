@@ -7,6 +7,8 @@ Este proyecto contiene análisis y visualizaciones de datos climáticos utilizan
 - Gráfico de barras: Distribución de condiciones climáticas
 - Mapa de calor de correlaciones
 - Gráfica de pares
+- Medidas de estadisticas
+- Estaditica descriptiva 
 
 ## Requisitos
 
@@ -16,6 +18,7 @@ Este proyecto contiene análisis y visualizaciones de datos climáticos utilizan
 - Seaborn
 - Numpy
 - Scipy.stats
+- Scikit-learn
 
 Puedes instalar las dependencias necesarias utilizando pip:
 
