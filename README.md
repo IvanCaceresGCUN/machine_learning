@@ -7,6 +7,8 @@ Este proyecto contiene análisis y visualizaciones de datos climáticos utilizan
 - Gráfico de barras: Distribución de condiciones climáticas
 - Mapa de calor de correlaciones
 - Gráfica de pares
+- Medidas de estadisticas
+- Estaditica descriptiva 
 
 ## Requisitos
 
@@ -14,6 +16,9 @@ Este proyecto contiene análisis y visualizaciones de datos climáticos utilizan
 - pandas
 - Matplotlib
 - Seaborn
+- Numpy
+- Scipy.stats
+- Scikit-learn
 
 Puedes instalar las dependencias necesarias utilizando pip:
 
@@ -35,6 +40,25 @@ Este proyecto contiene análisis y visualizaciones de datos climáticos utilizan
 
 
 ![pares](https://github.com/user-attachments/assets/c02486ed-5cda-40d6-b5ad-c5d5210866dd)
+
+## ASIMETRÍA UTILIZANDO DIAGRAMAS DE CAJA
+
+La asimetría (o skewness en inglés) es una medida que describe la simetría de la distribución de datos. Indica si los datos se distribuyen de manera uniforme alrededor de la media. Puede ser:
+Asimetría Positiva: Cuando la cola derecha de la distribución es más larga o más gruesa que la izquierda. En este caso, la media es mayor que la mediana.
+Asimetría Negativa: Cuando la cola izquierda es más larga o más gruesa que la derecha. Aquí, la media es menor que la mediana.
+Diagramas de Caja: Un diagrama de caja (o boxplot) es una representación gráfica que resume un conjunto de datos a través de sus cuartiles. Muestra cinco estadísticas clave:
+
+![diagramas_cajas](https://github.com/user-attachments/assets/6b52e85a-a112-45e8-b4df-17c6e923a752)
+
+
+Valor mínimo: El valor más bajo.
+Primer cuartil (Q1): El valor que separa el 25% inferior de los datos.
+Mediana (Q2): El valor que divide el conjunto de datos en dos mitades iguales.
+Tercer cuartil (Q3): El valor que separa el 75% superior de los datos.
+Valor máximo: El valor más alto.
+
+plt.figure(figsize=(12,6))
+sns.boxplot("precipitation","weather",data=data,palette="YlOrBr")
 
 ## Evaluación del modelo
 La búsqueda de hiperparámetros está en progreso y ha probado varias combinaciones de C, gamma y kernel. Es un buen enfoque para encontrar los mejores parámetros el modelo, La precisión y recall para clases como drizzle, fog, y snow son bajas. Esto puede ser un indicio de que hay pocos datos para estas clases o que el modelo no está capturando bien estas categorías.
