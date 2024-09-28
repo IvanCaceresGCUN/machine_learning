@@ -133,6 +133,8 @@ Rechazamos la hipótesis nula: la media de la temperatura máxima es significati
 ## Evaluación del modelo
 Desempeño del modelo:
 
+![image](https://github.com/user-attachments/assets/7e80ce76-0fe0-453d-9df8-f375ec22c558)
+
 El modelo con mayor precisión predijo correctamente la clase rain y sun, pero tuvo problemas con clases menos representadas como drizzle y fog.
 El kernel rbf parece haber sido probado con múltiples valores de gamma, y algunos valores bajos de gamma y valores moderados de C tienden a mejorar la precisión.
 
