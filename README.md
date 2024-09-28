@@ -111,7 +111,7 @@ Realizar más pruebas con valores adicionales de C y gamma.
 Considerar realizar una normalización de datos o utilizar técnicas para manejar el desbalance de clases.
 
 
-##Estadísticas descriptivas: El script calcula las siguientes estadísticas para la temperatura máxima:
+## Estadísticas descriptivas: El script calcula las siguientes estadísticas para la temperatura máxima:
 
 Media
 Mediana
