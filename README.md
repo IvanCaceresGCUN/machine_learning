@@ -4,11 +4,12 @@ Este proyecto contiene análisis y visualizaciones de datos climáticos utilizan
 
 ## Contenido
 
+- Estadistica descriptiva 
 - Gráfico de barras: Distribución de condiciones climáticas
 - Mapa de calor de correlaciones
 - Gráfica de pares
 - Medidas de estadisticas
-- Estaditica descriptiva 
+
 
 ## Requisitos
 
@@ -130,6 +131,9 @@ El script generará un archivo de texto con los siguientes resultados:
 Media, mediana y desviación estándar de la temperatura máxima.
 Intervalo de confianza al 95% para la media de la temperatura máxima.
 Resultado de la prueba t de Student, incluyendo el estadístico t y el valor p.
+
+![resultados](https://github.com/user-attachments/assets/bb377b99-083e-4bbf-9dcb-f6aa87610f3b)
+
 
 Media de la temperatura máxima: 16.44°C
 Mediana de la temperatura máxima: 15.6°C
