@@ -23,16 +23,16 @@ Este proyecto contiene análisis y visualizaciones de datos climáticos utilizan
 
 ## Gráfico de Barras
  
-*Descripción del gráfico de barras.*
+
 ![barras](https://github.com/user-attachments/assets/f8f1f1e2-3236-4b4f-9ae0-9763d93d78df)
 
 ## Mapa de Calor de Correlaciones
   
-*Descripción del mapa de calor de correlaciones.*
+
 ![calor_corelaciones](https://github.com/user-attachments/assets/dd44fa3d-3ca2-4f3a-8fa2-04b1d011609d)
 
 ## Gráfica de Pares
 
-*Descripción de la gráfica de pares.*
+
 ![pares](https://github.com/user-attachments/assets/c02486ed-5cda-40d6-b5ad-c5d5210866dd)
 
