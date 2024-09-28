@@ -131,20 +131,6 @@ Valor p: 2.1e-07
 Rechazamos la hipótesis nula: la media de la temperatura máxima es significativamente diferente de 15°C
 
 ## Evaluación del modelo
-La búsqueda de hiperparámetros está en progreso y ha probado varias combinaciones de C, gamma y kernel. Es un buen enfoque para encontrar los mejores parámetros el modelo, La precisión y recall para clases como drizzle, fog, y snow son bajas. Esto puede ser un indicio de que hay pocos datos para estas clases o que el modelo no está capturando bien estas categorías.
-La precisión y recall son bastante buenas para la clase rain y sun.
-
-Cada combinación de hiperparámetros se evalúa con validación cruzada (5 pliegues, según el resultado) para estimar cómo generalizaría el modelo a nuevos datos. Por ejemplo:
-
-css
-Copiar código
-[CV] END ...................C=0.1, gamma=1, kernel=rbf; total time=0.0s
-[CV] END ...................C=0.1, gamma=0.01, kernel=linear; total time=0.0s
-Mejores combinaciones de hiperparámetros: Según los resultados, algunos modelos presentan combinaciones de parámetros que lograron un ajuste rápido (indicando que la optimización fue rápida y eficiente), pero esto también puede estar relacionado con el tamaño del conjunto de datos o la complejidad del modelo.
-
-Posibles problemas observados
-Advertencias de métricas indefinidas: Varios mensajes indican que algunas clases (drizzle, fog) no se predijeron en absoluto, por lo que la métrica de precisión es indefinida para esas clases. Esto puede significar que el modelo no es lo suficientemente flexible o que los datos para esas clases son insuficientes o desbalanceados.
-
 Desempeño del modelo:
 
 El modelo con mayor precisión predijo correctamente la clase rain y sun, pero tuvo problemas con clases menos representadas como drizzle y fog.
