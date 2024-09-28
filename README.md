@@ -33,12 +33,8 @@ Hay 6 variables en este conjunto de datos:
 1 variable que se refiere al clima.
 
 
-date	precipitation	temp_max	temp_min	wind	weather
-0	2012-01-01	0.0	12.8	5.0	4.7	drizzle
-1	2012-01-02	10.9	10.6	2.8	4.5	rain
-2	2012-01-03	0.8	11.7	7.2	2.3	rain
-3	2012-01-04	20.3	12.2	5.6	4.7	rain
-4	2012-01-05	1.3	8.9	2.8	6.1	rain
+![Screenshot 2024-09-28 at 10 06 44 AM](https://github.com/user-attachments/assets/8713f48b-13b5-40da-8e88-e31df3370dd3)
+
 
 ## Gráfico de Barras
  
