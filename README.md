@@ -39,4 +39,6 @@ Este proyecto contiene análisis y visualizaciones de datos climáticos utilizan
 ## Evaluación del modelo
 La búsqueda de hiperparámetros está en progreso y ha probado varias combinaciones de C, gamma y kernel. Es un buen enfoque para encontrar los mejores parámetros el modelo, La precisión y recall para clases como drizzle, fog, y snow son bajas. Esto puede ser un indicio de que hay pocos datos para estas clases o que el modelo no está capturando bien estas categorías.
 La precisión y recall son bastante buenas para la clase rain y sun.
+
+
 ![evaluaciondemodelo](https://github.com/user-attachments/assets/63582cfb-2ee9-45df-843b-e0c2c21baf99)
