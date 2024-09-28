@@ -147,6 +147,7 @@ Desempeño del modelo:
 
 El modelo con mayor precisión predijo correctamente la clase rain y sun, pero tuvo problemas con clases menos representadas como drizzle y fog.
 El kernel rbf parece haber sido probado con múltiples valores de gamma, y algunos valores bajos de gamma y valores moderados de C tienden a mejorar la precisión.
+![image](https://github.com/user-attachments/assets/d0d86611-6e51-4962-8510-3fb8cca4fdfc)
 
 ![evaluaciondemodelo](https://github.com/user-attachments/assets/63582cfb-2ee9-45df-843b-e0c2c21baf99)
 
