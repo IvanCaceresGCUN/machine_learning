@@ -61,7 +61,7 @@ Valor máximo: El valor más alto.
 plt.figure(figsize=(12,6))
 sns.boxplot("precipitation","weather",data=data,palette="YlOrBr")
 
-##Conceptos estadísticos fundamentales en ciencia de datos
+## Conceptos estadísticos fundamentales en ciencia de datos
 Se incluyen medidas descriptivas como la media, la mediana y la desviación estándar.
 Análisis inferencial y descriptivo con SciPy:
 Se utiliza scipy.stats para realizar pruebas inferenciales, como el intervalo de confianza para la media.
