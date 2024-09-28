@@ -35,6 +35,11 @@ Hay 6 variables en este conjunto de datos:
 
 ![Screenshot 2024-09-28 at 10 06 44 AM](https://github.com/user-attachments/assets/8713f48b-13b5-40da-8e88-e31df3370dd3)
 
+## Correlaciones y Análisis de Valores Nulos
+Se utiliza un mapa de calor para mostrar la correlación entre las variables numéricas, destacando la relación positiva entre la temperatura máxima y mínima.
+
+![Screenshot 2024-09-28 at 10 09 49 AM](https://github.com/user-attachments/assets/888290af-8208-4ec0-ae58-d2d482ad93af)
+
 
 ## Gráfico de Barras
  
