@@ -21,7 +21,7 @@ Este proyecto contiene análisis y visualizaciones de datos climáticos utilizan
 - Scipy.stats
 - Scikit-learn
 
-Puedes instalar las dependencias necesarias utilizando pip:
+Puedes instalar las dependencias necesarias utilizando pip
 
 # Análisis de Datos Climáticos
 
@@ -61,6 +61,27 @@ Valor máximo: El valor más alto.
 plt.figure(figsize=(12,6))
 sns.boxplot("precipitation","weather",data=data,palette="YlOrBr")
 
+##Conceptos estadísticos fundamentales en ciencia de datos
+Se incluyen medidas descriptivas como la media, la mediana y la desviación estándar.
+Análisis inferencial y descriptivo con SciPy:
+Se utiliza scipy.stats para realizar pruebas inferenciales, como el intervalo de confianza para la media.
+Pruebas estadísticas y su aplicación en Python:
+Se ejecutan pruebas estadísticas como la t de Student para comparar la media de los datos con un valor de referencia.
+
+Descripción de las secciones:
+Estadísticas descriptivas:
+
+Calcula la media, mediana y desviación estándar de la columna temp_max.
+Intervalo de confianza:
+
+Usa la función scipy.stats.t.interval para calcular el intervalo de confianza al 95% para la temperatura máxima.
+Prueba t de Student:
+
+Compara la media de temp_max con un valor hipotético de 15°C. Si el valor p es menor a 0.05, se rechaza la hipótesis nula de que la media es igual a 15°C.
+
+Uso
+Cargar y limpiar los datos: El script carga los datos desde seattle-weather.csv y elimina filas con valores faltantes en las columnas de interés (precipitación, temperatura máxima y mínima, velocidad del viento).
+
 ## Evaluación del modelo
 La búsqueda de hiperparámetros está en progreso y ha probado varias combinaciones de C, gamma y kernel. Es un buen enfoque para encontrar los mejores parámetros el modelo, La precisión y recall para clases como drizzle, fog, y snow son bajas. Esto puede ser un indicio de que hay pocos datos para estas clases o que el modelo no está capturando bien estas categorías.
 La precisión y recall son bastante buenas para la clase rain y sun.
@@ -89,28 +110,8 @@ Ajustar los pesos de clase para equilibrar las clases menos frecuentes.
 Realizar más pruebas con valores adicionales de C y gamma.
 Considerar realizar una normalización de datos o utilizar técnicas para manejar el desbalance de clases.
 
-##Conceptos estadísticos fundamentales en ciencia de datos
-Se incluyen medidas descriptivas como la media, la mediana y la desviación estándar.
-Análisis inferencial y descriptivo con SciPy:
-Se utiliza scipy.stats para realizar pruebas inferenciales, como el intervalo de confianza para la media.
-Pruebas estadísticas y su aplicación en Python:
-Se ejecutan pruebas estadísticas como la t de Student para comparar la media de los datos con un valor de referencia.
 
-Descripción de las secciones:
-Estadísticas descriptivas:
-
-Calcula la media, mediana y desviación estándar de la columna temp_max.
-Intervalo de confianza:
-
-Usa la función scipy.stats.t.interval para calcular el intervalo de confianza al 95% para la temperatura máxima.
-Prueba t de Student:
-
-Compara la media de temp_max con un valor hipotético de 15°C. Si el valor p es menor a 0.05, se rechaza la hipótesis nula de que la media es igual a 15°C.
-
-Uso
-Cargar y limpiar los datos: El script carga los datos desde seattle-weather.csv y elimina filas con valores faltantes en las columnas de interés (precipitación, temperatura máxima y mínima, velocidad del viento).
-
-Estadísticas descriptivas: El script calcula las siguientes estadísticas para la temperatura máxima:
+##Estadísticas descriptivas: El script calcula las siguientes estadísticas para la temperatura máxima:
 
 Media
 Mediana
