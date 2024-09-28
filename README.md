@@ -155,5 +155,7 @@ La búsqueda de hiperparámetros nos ayuda a seleccionar el mejor modelo, pero t
 Ajustar los pesos de clase para equilibrar las clases menos frecuentes.
 Realizar más pruebas con valores adicionales de C y gamma.
 Considerar realizar una normalización de datos o utilizar técnicas para manejar el desbalance de clases.
+![image](https://github.com/user-attachments/assets/e9a9609d-f752-410a-8f77-c50cac9424a1)
+
 
 
