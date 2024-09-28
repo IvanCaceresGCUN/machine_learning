@@ -107,6 +107,8 @@ Pruebas estadísticas:
 
 Se ejecuta una prueba t de Student para comparar la media de la temperatura máxima con un valor de referencia (15°C en este caso). El resultado de la prueba t indicará si la diferencia es estadísticamente significativa.
 
+![image](https://github.com/user-attachments/assets/ac2736f1-92c1-480e-9c2b-3ca5797686be)
+
 Resultados
 El script generará un archivo de texto con los siguientes resultados:
 
@@ -147,6 +149,7 @@ Desempeño del modelo:
 
 El modelo con mayor precisión predijo correctamente la clase rain y sun, pero tuvo problemas con clases menos representadas como drizzle y fog.
 El kernel rbf parece haber sido probado con múltiples valores de gamma, y algunos valores bajos de gamma y valores moderados de C tienden a mejorar la precisión.
+
 
 ![image](https://github.com/user-attachments/assets/d0d86611-6e51-4962-8510-3fb8cca4fdfc)
 
